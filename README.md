@@ -54,3 +54,13 @@ terraform apply -auto-approve
 ```bash
 terraform destroy
 ```
+
+- Log and debug 
+
+```bash
+terraform plan
+
+terraform plan -out plan.out
+
+terraform show -json plan.out > plan.json
+```
